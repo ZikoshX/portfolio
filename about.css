@@ -1,0 +1,133 @@
+/* General Reset */
+body, h1, h2, p, ul, li, nav, a, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #ddd; /* Light gray text for contrast */
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: 15px 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #14866f;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #171616;
+    color: #f9f7f7;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+.profile-info .intro,
+.profile-info .expertise {
+    font-size: 1.1rem;
+    width: 695px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-card {
+    background-color: #222;
+    color: #f9f7f7;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    text-align: left;
+}
+
+.info-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #14866f;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}

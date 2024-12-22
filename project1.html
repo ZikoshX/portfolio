@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#name">Zere</a></li>
+            <li><a href="page.html">PORTFOLIO</a></li>
+            <li class="has-submenu">
+                <a href="#projects" class="active">PROJECTS &#9662;</a>
+                <ul class="submenu">
+                    <li><a href="project1.html"class="active" >Project 1</a></li>
+                    <li><a href="project2.html" >Project 2</a></li>
+                    <li><a href="project3.html" >Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="about me.html">ABOUT ME</a></li>
+        </ul>
+    </nav>
+    <div class="blocks">
+        <div class="projects">
+            <div class="project-block">
+                <img src="images/robot.jpeg" alt="Project 1" class="project-image">
+                <a href="https://docs.google.com/document/d/1w7kItPXWjCrSkV8k2aBGs7uVaCzIrnVieByMabBg0KY/edit?tab=t.0">SDU Scout(Project Document)</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav>
+            <ul class="navigation">
+                <li><a href="#part1">Background Research</a></li>
+                <li><a href="#part2">Data collection</a></li>
+                <li><a href="#part3">Data analysis</a></li>
+                <li><a href="#part4">Prototyping</a></li>
+                <li><a href="#part5">Evaluation</a></li>
+            </ul>
+        </nav>
+        <div id="part1" class="section">
+            <h2>Background Research</h2>
+                <p>Students often face difficulties when searching for free study rooms, especially during peak times such as exam periods. 
+                    Physically searching for rooms is inefficient and time-consuming. Automating this process through a robot that provides real-time data will be the optimal solution to this problem.</p>
+                <p>Our idea is to create a robot that helps students find available study rooms. The primary function of the robot is to provide real-time information on room availability. This solution is designed to simplify student life by giving quick access to essential information and increasing overall efficiency.</p>
+                <p>The use of a robot also allows for real-time interaction(voice)  and adaptability to student requests, making the process of finding study rooms quick, convenient, and intuitive. The system can not only locate available rooms but also suggest alternatives when primary study spaces are occupied.
+                </p>
+     
+            
+        </div>
+        <div id="part2" class="section">
+            <h2>1. Data collection</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+              <a href="https://drive.google.com/drive/folders/14pyjRZ-R5nQs0ww9z0KeTqjmDCuYKhyk?usp=drive_link" target="_blank">Link for interview audio(3 interview is here with notes)</a>
+              <img src="images/photo.jpeg" alt="Image 1" class="image">
+        </div>
+    
+        <div id="part3" class="section">
+            <h2>2. Data Analysis</h2>
+            <div class="image-container">
+                <img src="images/diagram.jpeg" alt="Image 2" class="imagess">
+                <img src="images/room.png" alt="Image 1" class="images">
+            </div>
+            
+        </div>
+    
+        <div id="part4" class="section">
+            <h2>3. Prototyping</h2>
+            <div class="image-container">
+                <div class="image-item">
+                    <p>The storyboard shows the student asking the robot for a free study room, followed by the robot scanning and providing a room suggestion in real-time.</p>
+                    <img src="images/sketch.jpg" alt="Image 2" class="imagess">
+                </div>
+                <div class="image-item">
+                    <p>A student concerned about an empty room turns to a robot for help.</p>
+                    <img src="images/storyboard.jpg" alt="Image 1" class="images">
+                </div>
+            </div>
+            
+        </div>
+    
+        <div id="part5" class="section">
+            <h2>4. Evalution</h2>
+            <p>The SDU Scout Robot has undergone a change in its functionality. Previously, it offered three functions: finding free study rooms, checking teacher schedules to see if they were on campus, and helping students prepare for midterms or quizzes. However, the updated version now focuses solely on helping students find available study rooms, with the teacher schedule and exam preparation features removed.</p>
+            <p>The testing procedure will focus on the core feature of the robot, which is room finding. When a student requests to find a study room, the robot should accurately provide real-time availability. For example, if a student requests a room during a peak time, such as lunch, the robot should provide accurate and up-to-date information on available rooms.</p>
+            <p>The expected outcome is that the robot will quickly identify and suggest an available study room, without errors, and that the interface will be user-friendly, allowing students to easily navigate and check room availability or booking status.</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
